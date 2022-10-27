@@ -1,0 +1,59 @@
+
+> tasks@0.1.0 test
+> react-scripts test
+
+PASS src/quizzer/Quizzer.test.tsx
+  ● Console
+
+    console.log src/quizzer/QuizExpanded.tsx:47
+      daf
+    console.log src/quizzer/QuizExpanded.tsx:47
+      daf
+    console.log src/quizzer/QuizExpanded.tsx:47
+      daf
+    console.log src/quizzer/QuizExpanded.tsx:47
+      daf
+    console.log src/quizzer/QuizExpanded.tsx:47
+      daf
+    console.log src/quizzer/QuizExpanded.tsx:47
+      daf
+    console.log src/quizzer/QuizExpanded.tsx:47
+      daf
+
+PASS src/App.test.tsx
+-------------------|----------|----------|----------|----------|-------------------|
+File               |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+-------------------|----------|----------|----------|----------|-------------------|
+All files          |    82.55 |    82.76 |    76.71 |    81.82 |                   |
+ src               |    66.67 |       50 |       50 |    66.67 |                   |
+  App.tsx          |    66.67 |       50 |       50 |    66.67 |                16 |
+  setupTests.ts    |      100 |      100 |      100 |      100 |                   |
+ src/quizzer       |    82.88 |    85.19 |    77.46 |    82.14 |                   |
+  AddQuizModal.tsx |    58.33 |      100 |       40 |    58.33 |    37,46,55,56,57 |
+  QuestionEdit.tsx |    46.67 |    66.67 |       40 |    46.67 |... 65,199,226,251 |
+  QuizCard.tsx     |      100 |       80 |      100 |      100 |                32 |
+  QuizEdit.tsx     |    86.67 |      100 |    73.33 |    85.71 |      32,34,71,101 |
+  QuizExpanded.tsx |      100 |    85.71 |      100 |      100 |                73 |
+  QuizList.tsx     |      100 |      100 |      100 |      100 |                   |
+  QuizQuestion.tsx |      100 |    85.71 |      100 |      100 |             23,30 |
+  QuizView.tsx     |      100 |      100 |      100 |      100 |                   |
+  Quizzer.tsx      |      100 |      100 |      100 |      100 |                   |
+-------------------|----------|----------|----------|----------|-------------------|
+Handlebars: Access has been denied to resolve the property "statements" because it is not an "own property" of its parent.
+You can add a runtime option to disable the check or this warning:
+See https://handlebarsjs.com/api-reference/runtime-options.html#options-to-control-prototype-access for details
+Handlebars: Access has been denied to resolve the property "branches" because it is not an "own property" of its parent.
+You can add a runtime option to disable the check or this warning:
+See https://handlebarsjs.com/api-reference/runtime-options.html#options-to-control-prototype-access for details
+Handlebars: Access has been denied to resolve the property "functions" because it is not an "own property" of its parent.
+You can add a runtime option to disable the check or this warning:
+See https://handlebarsjs.com/api-reference/runtime-options.html#options-to-control-prototype-access for details
+Handlebars: Access has been denied to resolve the property "lines" because it is not an "own property" of its parent.
+You can add a runtime option to disable the check or this warning:
+See https://handlebarsjs.com/api-reference/runtime-options.html#options-to-control-prototype-access for details
+
+Test Suites: 2 passed, 2 total
+Tests:       15 passed, 15 total
+Snapshots:   0 total
+Time:        4.504s
+Ran all test suites.
